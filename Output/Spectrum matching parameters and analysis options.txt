@@ -1,0 +1,12 @@
+Linf:
+10
+Lsup:
+30
+T1 [s]:
+0.15
+T2 [s]:
+2
+Scaled:
+Yes
+I'm feeling lucky:
+Yes

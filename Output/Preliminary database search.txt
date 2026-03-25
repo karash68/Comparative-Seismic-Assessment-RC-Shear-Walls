@@ -1,0 +1,12 @@
+M min:
+5
+M max:
+7
+R min [km]:
+0
+R max [km]:
+100
+Site class:
+Same as target spectrum
+Database:
+European Strong-motion Database
