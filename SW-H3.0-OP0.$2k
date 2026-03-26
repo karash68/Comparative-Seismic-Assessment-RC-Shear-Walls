@@ -1,0 +1,718 @@
+File F:\3rd Publication\SW-H3.0-OP0\SW-H3.0-OP0.$2k was saved on m/d/yy at h:mm:ss
+ 
+TABLE:  "ACTIVE DEGREES OF FREEDOM"
+   UX=Yes   UY=No   UZ=Yes   RX=No   RY=Yes   RZ=No
+ 
+TABLE:  "ANALYSIS OPTIONS"
+   Solver=Advanced   SolverProc=Auto   Force32Bit=No   StiffCase=None   GeomMod=None   HingeOpt="In Elements"   NumAThreads=0   MaxFileSize=0   NumDThreads=0   NumRThreads=0   UseMMFiles="Program Determined"   AllowDiff=No
+ 
+TABLE:  "AREA SECTION ASSIGNMENTS"
+   Area=1   Section=3%confinedconcrete   MatProp=Default
+   Area=2   Section=3%confinedconcrete   MatProp=Default
+   Area=3   Section=3%confinedconcrete   MatProp=Default
+   Area=4   Section=3%confinedconcrete   MatProp=Default
+   Area=5   Section=3%confinedconcrete   MatProp=Default
+   Area=6   Section=3%confinedconcrete   MatProp=Default
+   Area=7   Section=.4%unconfined   MatProp=Default
+   Area=8   Section=.4%unconfined   MatProp=Default
+   Area=10   Section=.4%unconfined   MatProp=Default
+   Area=11   Section=.4%unconfined   MatProp=Default
+   Area=12   Section=.4%unconfined   MatProp=Default
+   Area=13   Section=.4%unconfined   MatProp=Default
+ 
+TABLE:  "AREA SECTION PROPERTIES"
+   Section=.3%unconfined   Material=C30/37   MatAngle=0   AreaType=Shell   Type=Shell-Layered   Thickness=304.8   BendThick=304.8   Color=Green   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1   MMod=1 _
+        WMod=1   GUID=1f5b88a7-a3eb-4155-b0df-c683f4ee1838   Notes="Added 12/21/2024 4:46:29 PM"
+   Section=.4%unconfined   Material=C30/37   MatAngle=0   AreaType=Shell   Type=Shell-Layered   Thickness=304.8   BendThick=304.8   Color=Green   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1   MMod=1 _
+        WMod=1   GUID=14c34a04-c395-4a28-81fb-a756039810e4   Notes="Added 12/21/2024 6:08:46 PM"
+   Section=3%confinedconcrete   Material=C30/37   MatAngle=0   AreaType=Shell   Type=Shell-Layered   Thickness=304.8   BendThick=304.8   Color=Green   F11Mod=1   F22Mod=1   F12Mod=1   M11Mod=1   M22Mod=1   M12Mod=1   V13Mod=1   V23Mod=1 _
+        MMod=1   WMod=1   GUID=38adb87b-cdf0-4578-a411-c8b17f301fe9   Notes="Added 12/21/2024 6:10:45 PM"
+ 
+TABLE:  "AREA SECTION PROPERTY DESIGN PARAMETERS"
+   Section=.3%unconfined   RebarMat=None   RebarOpt=Default
+   Section=.4%unconfined   RebarMat=None   RebarOpt=Default
+   Section=3%confinedconcrete   RebarMat=None   RebarOpt=Default
+ 
+TABLE:  "AREA SECTION PROPERTY LAYERS"
+   Section=.3%unconfined   LayerName=ConcM   Distance=0   Thickness=304.8   Type=Membrane   NumIntPts=1   Material=UnconfinedConcrete   MatAngle=0   MatBehave=Directional   S11Opt=Linear   S22Opt=Nonlinear   S12Opt=Linear
+   Section=.3%unconfined   LayerName=TopBar2M   Distance=115.57   Thickness=0.423333339641492   Type=Membrane   NumIntPts=1   Material=AllSteelReinforcemet   MatAngle=90   MatBehave=Directional   S11Opt=Nonlinear   S22Opt=Inactive   S12Opt=Linear
+   Section=.3%unconfined   LayerName=BotBar2M   Distance=-115.57   Thickness=0.423333339641492   Type=Membrane   NumIntPts=1   Material=AllSteelReinforcemet   MatAngle=90   MatBehave=Directional   S11Opt=Nonlinear   S22Opt=Inactive   S12Opt=Linear
+   Section=.3%unconfined   LayerName=ConcP   Distance=0   Thickness=190.5   Type=Plate   NumIntPts=2   Material=UnconfinedConcrete   MatAngle=0   MatBehave=Directional   S11Opt=Linear   S22Opt=Linear   S12Opt=Linear
+   Section=.4%unconfined   LayerName=ConcM   Distance=0   Thickness=304.8   Type=Membrane   NumIntPts=1   Material=UnconfinedConcrete   MatAngle=0   MatBehave=Directional   S11Opt=Linear   S22Opt=Nonlinear   S12Opt=Linear
+   Section=.4%unconfined   LayerName=TopBar2M   Distance=115.57   Thickness=0.656082   Type=Membrane   NumIntPts=1   Material=AllSteelReinforcemet   MatAngle=90   MatBehave=Directional   S11Opt=Nonlinear   S22Opt=Inactive   S12Opt=Linear
+   Section=.4%unconfined   LayerName=BotBar2M   Distance=-115.57   Thickness=0.656082   Type=Membrane   NumIntPts=1   Material=AllSteelReinforcemet   MatAngle=90   MatBehave=Directional   S11Opt=Nonlinear   S22Opt=Inactive   S12Opt=Linear
+   Section=.4%unconfined   LayerName=ConcP   Distance=0   Thickness=190.5   Type=Plate   NumIntPts=2   Material=UnconfinedConcrete   MatAngle=0   MatBehave=Directional   S11Opt=Linear   S22Opt=Linear   S12Opt=Linear
+   Section=3%confinedconcrete   LayerName=ConcM   Distance=0   Thickness=304.8   Type=Membrane   NumIntPts=1   Material=ConfinedConcrete   MatAngle=0   MatBehave=Directional   S11Opt=Linear   S22Opt=Nonlinear   S12Opt=Linear
+   Section=3%confinedconcrete   LayerName=TopBar2M   Distance=115.57   Thickness=4.233418   Type=Membrane   NumIntPts=1   Material=AllSteelReinforcemet   MatAngle=90   MatBehave=Directional   S11Opt=Nonlinear   S22Opt=Inactive   S12Opt=Linear
+   Section=3%confinedconcrete   LayerName=BotBar2M   Distance=-115.57   Thickness=4.233418   Type=Membrane   NumIntPts=1   Material=AllSteelReinforcemet   MatAngle=90   MatBehave=Directional   S11Opt=Nonlinear   S22Opt=Inactive   S12Opt=Linear
+   Section=3%confinedconcrete   LayerName=ConcP   Distance=0   Thickness=190.5   Type=Plate   NumIntPts=2   Material=ConfinedConcrete   MatAngle=0   MatBehave=Directional   S11Opt=Linear   S22Opt=Linear   S12Opt=Linear
+ 
+TABLE:  "AREA SECTION PROPERTY - TIME DEPENDENT"
+   Section=.3%unconfined   TypeSize=Auto   AutoSFSize=1
+   Section=.4%unconfined   TypeSize=Auto   AutoSFSize=1
+   Section=3%confinedconcrete   TypeSize=Auto   AutoSFSize=1
+ 
+TABLE:  "AUTO WAVE 3 - WAVE CHARACTERISTICS - GENERAL"
+   WaveChar=Default   WaveType="From Theory"   KinFactor=1   SWaterDepth=150   WaveHeight=60   WavePeriod=12   WaveTheory=Linear
+ 
+TABLE:  "CASE - MODAL 1 - GENERAL"
+   Case=MODAL   ModeType=Eigen   MaxNumModes=12   MinNumModes=1   EigenShift=0   EigenCutoff=0   EigenTol=1E-09   AutoShift=Yes
+ 
+TABLE:  "CASE - MODAL HISTORY 1 - GENERAL"
+   Case=LACC0   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=LACC0-0.3   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=LACC0-0.5   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=LACC0_0.7   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=LACC0-0.9   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=LACC0-1.1   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=LACC0-1.3   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=LACC0-1.5   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=LACC0-2   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=LACC0-2.5   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=LACC0-3   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Altadena-0.3   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Altadena-0.5   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Altadena-0.7   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Altadena-0.9   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Altadena-1.1   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Altadena-1.3   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Altadena-1.5   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Altadena-2   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Altadena-2.5   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Altadena-3   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Lucerne-0.3   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Lucerne-0.5   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Lucerne-0.7   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Lucerne-0.9   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Lucerne-1.1   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Lucerne-1.3   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Lucerne-1.5   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Lucerne-2   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Lucerne-2.5   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Lucerne-3   HistoryType=Transient   OutSteps=3000   StepSize=0.02   ConstDamp=0.05
+   Case=Lazio-0.3   HistoryType=Transient   OutSteps=5000   StepSize=0.01   ConstDamp=0.05
+   Case=Lazio-0.5   HistoryType=Transient   OutSteps=5000   StepSize=0.01   ConstDamp=0.05
+   Case=Lazio-0.7   HistoryType=Transient   OutSteps=5000   StepSize=0.01   ConstDamp=0.05
+   Case=Lazio-0.9   HistoryType=Transient   OutSteps=5000   StepSize=0.01   ConstDamp=0.05
+   Case=Lazio-1.1   HistoryType=Transient   OutSteps=5000   StepSize=0.01   ConstDamp=0.05
+   Case=Lazio-1.3   HistoryType=Transient   OutSteps=5000   StepSize=0.01   ConstDamp=0.05
+   Case=Lazio-1.5   HistoryType=Transient   OutSteps=5000   StepSize=0.01   ConstDamp=0.05
+   Case=Lazio-2   HistoryType=Transient   OutSteps=5000   StepSize=0.01   ConstDamp=0.05
+   Case=Lazio-2.5   HistoryType=Transient   OutSteps=5000   StepSize=0.01   ConstDamp=0.05
+   Case=Lazio-3   HistoryType=Transient   OutSteps=5000   StepSize=0.01   ConstDamp=0.05
+   Case=SIceland-0.3   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=SIceland-0.5   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=SIceland-0.7   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=SIceland-0.9   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=SIceland-1.1   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=SIceland-1.3   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=SIceland-1.5   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=SIceland-2   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=SIceland-2.5   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=SIceland-3   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Umbria-0.3   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Umbria-0.5   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Umbria-0.7   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Umbria-0.9   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Umbria-1.1   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Umbria-1.3   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Umbria-1.5   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Umbria-2   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Umbria-2.5   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Umbria-3   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Vrancea-0.3   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Vrancea-0.5   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Vrancea-0.7   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Vrancea-0.9   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Vrancea-1.1   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Vrancea-1.3   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Vrancea-1.5   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Vrancea-2   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Vrancea-2.5   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+   Case=Vrancea-3   HistoryType=Transient   OutSteps=100   StepSize=0.1   ConstDamp=0.05
+ 
+TABLE:  "CASE - MODAL HISTORY 2 - LOAD ASSIGNMENTS"
+   Case=LACC0   LoadType=Accel   LoadName="Accel U1"   Function=LACC0   TransAccSF=9.997   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=LACC0-0.3   LoadType=Accel   LoadName="Accel U1"   Function=LACC0   TransAccSF=3   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=LACC0-0.5   LoadType=Accel   LoadName="Accel U1"   Function=LACC0   TransAccSF=5   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=LACC0_0.7   LoadType=Accel   LoadName="Accel U1"   Function=LACC0   TransAccSF=7   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=LACC0-0.9   LoadType=Accel   LoadName="Accel U1"   Function=LACC0   TransAccSF=9   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=LACC0-1.1   LoadType=Accel   LoadName="Accel U1"   Function=LACC0   TransAccSF=11   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=LACC0-1.3   LoadType=Accel   LoadName="Accel U1"   Function=LACC0   TransAccSF=13   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=LACC0-1.5   LoadType=Accel   LoadName="Accel U1"   Function=LACC0   TransAccSF=15   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=LACC0-2   LoadType=Accel   LoadName="Accel U1"   Function=LACC0   TransAccSF=20   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=LACC0-2.5   LoadType=Accel   LoadName="Accel U1"   Function=LACC0   TransAccSF=25   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=LACC0-3   LoadType=Accel   LoadName="Accel U1"   Function=LACC0   TransAccSF=30   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Altadena-0.3   LoadType=Accel   LoadName="Accel U1"   Function=Altadena   TransAccSF=3   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Altadena-0.5   LoadType=Accel   LoadName="Accel U1"   Function=Altadena   TransAccSF=5   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Altadena-0.7   LoadType=Accel   LoadName="Accel U1"   Function=Altadena   TransAccSF=7   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Altadena-0.9   LoadType=Accel   LoadName="Accel U1"   Function=Altadena   TransAccSF=9   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Altadena-1.1   LoadType=Accel   LoadName="Accel U1"   Function=Altadena   TransAccSF=11   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Altadena-1.3   LoadType=Accel   LoadName="Accel U1"   Function=Altadena   TransAccSF=13   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Altadena-1.5   LoadType=Accel   LoadName="Accel U1"   Function=Altadena   TransAccSF=15   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Altadena-2   LoadType=Accel   LoadName="Accel U1"   Function=Altadena   TransAccSF=20   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Altadena-2.5   LoadType=Accel   LoadName="Accel U1"   Function=Altadena   TransAccSF=25   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Altadena-3   LoadType=Accel   LoadName="Accel U1"   Function=Altadena   TransAccSF=30   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lucerne-0.3   LoadType=Accel   LoadName="Accel U1"   Function=Lucerne   TransAccSF=3   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lucerne-0.5   LoadType=Accel   LoadName="Accel U1"   Function=Lucerne   TransAccSF=5   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lucerne-0.7   LoadType=Accel   LoadName="Accel U1"   Function=Lucerne   TransAccSF=7   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lucerne-0.9   LoadType=Accel   LoadName="Accel U1"   Function=Lucerne   TransAccSF=9   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lucerne-1.1   LoadType=Accel   LoadName="Accel U1"   Function=Lucerne   TransAccSF=11   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lucerne-1.3   LoadType=Accel   LoadName="Accel U1"   Function=Lucerne   TransAccSF=13   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lucerne-1.5   LoadType=Accel   LoadName="Accel U1"   Function=Lucerne   TransAccSF=15   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lucerne-2   LoadType=Accel   LoadName="Accel U1"   Function=Lucerne   TransAccSF=20   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lucerne-2.5   LoadType=Accel   LoadName="Accel U1"   Function=Lucerne   TransAccSF=25   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lucerne-3   LoadType=Accel   LoadName="Accel U1"   Function=Lucerne   TransAccSF=30   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lazio-0.3   LoadType=Accel   LoadName="Accel U1"   Function=Lazio   TransAccSF=300   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lazio-0.5   LoadType=Accel   LoadName="Accel U1"   Function=Lazio   TransAccSF=500   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lazio-0.7   LoadType=Accel   LoadName="Accel U1"   Function=Lazio   TransAccSF=700   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lazio-0.9   LoadType=Accel   LoadName="Accel U1"   Function=Lazio   TransAccSF=900   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lazio-1.1   LoadType=Accel   LoadName="Accel U1"   Function=Lazio   TransAccSF=1100   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lazio-1.3   LoadType=Accel   LoadName="Accel U1"   Function=Lazio   TransAccSF=1300   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lazio-1.5   LoadType=Accel   LoadName="Accel U1"   Function=Lazio   TransAccSF=1500   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lazio-2   LoadType=Accel   LoadName="Accel U1"   Function=Lazio   TransAccSF=2000   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lazio-2.5   LoadType=Accel   LoadName="Accel U1"   Function=Lazio   TransAccSF=2500   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Lazio-3   LoadType=Accel   LoadName="Accel U1"   Function=Lazio   TransAccSF=3000   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=SIceland-0.3   LoadType=Accel   LoadName="Accel U1"   Function="South Iceland"   TransAccSF=300   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=SIceland-0.5   LoadType=Accel   LoadName="Accel U1"   Function="South Iceland"   TransAccSF=500   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=SIceland-0.7   LoadType=Accel   LoadName="Accel U1"   Function="South Iceland"   TransAccSF=700   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=SIceland-0.9   LoadType=Accel   LoadName="Accel U1"   Function="South Iceland"   TransAccSF=900   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=SIceland-1.1   LoadType=Accel   LoadName="Accel U1"   Function="South Iceland"   TransAccSF=1100   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=SIceland-1.3   LoadType=Accel   LoadName="Accel U1"   Function="South Iceland"   TransAccSF=1300   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=SIceland-1.5   LoadType=Accel   LoadName="Accel U1"   Function="South Iceland"   TransAccSF=1500   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=SIceland-2   LoadType=Accel   LoadName="Accel U1"   Function="South Iceland"   TransAccSF=2000   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=SIceland-2.5   LoadType=Accel   LoadName="Accel U1"   Function="South Iceland"   TransAccSF=2500   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=SIceland-3   LoadType=Accel   LoadName="Accel U1"   Function="South Iceland"   TransAccSF=3000   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Umbria-0.3   LoadType=Accel   LoadName="Accel U1"   Function="Umbria Marche"   TransAccSF=300   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Umbria-0.5   LoadType=Accel   LoadName="Accel U1"   Function="Umbria Marche"   TransAccSF=500   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Umbria-0.7   LoadType=Accel   LoadName="Accel U1"   Function="Umbria Marche"   TransAccSF=700   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Umbria-0.9   LoadType=Accel   LoadName="Accel U1"   Function="Umbria Marche"   TransAccSF=900   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Umbria-1.1   LoadType=Accel   LoadName="Accel U1"   Function="Umbria Marche"   TransAccSF=1100   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Umbria-1.3   LoadType=Accel   LoadName="Accel U1"   Function="Umbria Marche"   TransAccSF=1300   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Umbria-1.5   LoadType=Accel   LoadName="Accel U1"   Function="Umbria Marche"   TransAccSF=1500   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Umbria-2   LoadType=Accel   LoadName="Accel U1"   Function="Umbria Marche"   TransAccSF=2000   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Umbria-2.5   LoadType=Accel   LoadName="Accel U1"   Function="Umbria Marche"   TransAccSF=2500   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Umbria-3   LoadType=Accel   LoadName="Accel U1"   Function="Umbria Marche"   TransAccSF=3000   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Vrancea-0.3   LoadType=Accel   LoadName="Accel U1"   Function=Vrancea   TransAccSF=300   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Vrancea-0.5   LoadType=Accel   LoadName="Accel U1"   Function=Vrancea   TransAccSF=500   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Vrancea-0.7   LoadType=Accel   LoadName="Accel U1"   Function=Vrancea   TransAccSF=700   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Vrancea-0.9   LoadType=Accel   LoadName="Accel U1"   Function=Vrancea   TransAccSF=900   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Vrancea-1.1   LoadType=Accel   LoadName="Accel U1"   Function=Vrancea   TransAccSF=1100   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Vrancea-1.3   LoadType=Accel   LoadName="Accel U1"   Function=Vrancea   TransAccSF=1300   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Vrancea-1.5   LoadType=Accel   LoadName="Accel U1"   Function=Vrancea   TransAccSF=1500   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Vrancea-2   LoadType=Accel   LoadName="Accel U1"   Function=Vrancea   TransAccSF=2000   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Vrancea-2.5   LoadType=Accel   LoadName="Accel U1"   Function=Vrancea   TransAccSF=2500   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+   Case=Vrancea-3   LoadType=Accel   LoadName="Accel U1"   Function=Vrancea   TransAccSF=3000   TimeFactor=1   ArrivalTime=0   CoordSys=GLOBAL   Angle=0
+ 
+TABLE:  "CASE - MODAL HISTORY 6 - NONLINEAR PARAMETERS"
+   Case=LACC0   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=LACC0-0.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=LACC0-0.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=LACC0_0.7   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=LACC0-0.9   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=LACC0-1.1   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=LACC0-1.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=LACC0-1.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=LACC0-2   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=LACC0-2.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=LACC0-3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Altadena-0.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Altadena-0.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Altadena-0.7   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Altadena-0.9   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Altadena-1.1   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Altadena-1.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Altadena-1.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Altadena-2   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Altadena-2.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Altadena-3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lucerne-0.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lucerne-0.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lucerne-0.7   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lucerne-0.9   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lucerne-1.1   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lucerne-1.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lucerne-1.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lucerne-2   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lucerne-2.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lucerne-3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lazio-0.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lazio-0.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lazio-0.7   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lazio-0.9   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lazio-1.1   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lazio-1.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lazio-1.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lazio-2   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lazio-2.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Lazio-3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=SIceland-0.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=SIceland-0.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=SIceland-0.7   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=SIceland-0.9   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=SIceland-1.1   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=SIceland-1.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=SIceland-1.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=SIceland-2   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=SIceland-2.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=SIceland-3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Umbria-0.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Umbria-0.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Umbria-0.7   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Umbria-0.9   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Umbria-1.1   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Umbria-1.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Umbria-1.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Umbria-2   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Umbria-2.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Umbria-3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Vrancea-0.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Vrancea-0.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Vrancea-0.7   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Vrancea-0.9   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Vrancea-1.1   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Vrancea-1.3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Vrancea-1.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Vrancea-2   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Vrancea-2.5   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+   Case=Vrancea-3   PeriodStat=0   DTMax=0   DTMin=0   FConvTol=1E-05   EConvTol=1E-05   ForceItMax=100   ForceItMin=2   ConvFactor=1
+ 
+TABLE:  "CASE - STATIC 1 - LOAD ASSIGNMENTS"
+   Case=DEAD   LoadType="Load pattern"   LoadName=DEAD   LoadSF=1
+   Case=GravNL   LoadType="Load pattern"   LoadName=DEAD   LoadSF=1
+   Case=PushX   LoadType=Accel   LoadName="Accel UX"   TransAccSF=-1
+ 
+TABLE:  "CASE - STATIC 2 - NONLINEAR LOAD APPLICATION"
+   Case=GravNL   LoadApp="Full Load"   MonitorDOF=U1   MonitorJt=7
+   Case=PushX   LoadApp="Displ Ctrl"   DisplType=Monitored   TargetDispl=1097.28   MonitorDOF=U1   MonitorJt=8
+ 
+TABLE:  "CASE - STATIC 4 - NONLINEAR PARAMETERS"
+   Case=GravNL   GeoNonLin=None   ResultsSave="Final State"   SolScheme="Iterative Events"   MaxTotal=200   MaxNull=50   EvLumpTol=0.01   MaxEvPerStp=24   MaxIterCS=10   MaxIterNR=40   ItConvTol=0.0001   TFMaxIter=10   TFTol=0.01 _
+        TFAccelFact=1   TFNoStop=No
+   Case=PushX   GeoNonLin=None   ResultsSave="Multiple States"   MinNumState=10   MaxNumState=100   PosIncOnly=Yes   SolScheme="Iterative Events"   MaxTotal=200   MaxNull=50   EvLumpTol=0.01   MaxEvPerStp=24   MaxIterCS=10   MaxIterNR=40 _
+        ItConvTol=0.0001   TFMaxIter=10   TFTol=0.01   TFAccelFact=1   TFNoStop=No
+ 
+TABLE:  "CONNECTIVITY - AREA"
+   Area=1   Joint1=1   Joint2=2   Joint3=3   Joint4=4   GUID=5f17b799-6700-4d62-a5fa-5c0cc267c1bf
+   Area=2   Joint1=4   Joint2=3   Joint3=5   Joint4=6   GUID=f9958583-70be-4444-8394-a8871427d46e
+   Area=3   Joint1=6   Joint2=5   Joint3=7   Joint4=8   GUID=c3372203-8c7b-43c1-90b5-e8485465080d
+   Area=4   Joint1=9   Joint2=10   Joint3=11   Joint4=12   GUID=13ba41dd-ab03-4cf5-b7ef-79b58cb28de7
+   Area=5   Joint1=13   Joint2=14   Joint3=10   Joint4=9   GUID=5c9cfb3a-3482-4927-bd7f-e7cfa0f3a6d3
+   Area=6   Joint1=15   Joint2=16   Joint3=14   Joint4=13   GUID=c7451b1e-7827-4683-971d-7c738bc0c2f9
+   Area=7   Joint1=2   Joint2=15   Joint3=13   Joint4=3   GUID=43148ebd-2a14-4f68-b8f6-d4edd622a911
+   Area=8   Joint1=3   Joint2=13   Joint3=9   Joint4=5   GUID=73b48329-221b-4408-8934-39d75b985c9f
+   Area=10   Joint1=5   Joint2=17   Joint3=18   Joint4=19   GUID=1411d4da-0cb9-4c07-9495-7da00d4862a3
+   Area=11   Joint1=19   Joint2=18   Joint3=20   Joint4=7   GUID=5b452818-471f-4aaf-9ab3-27fc4c21447c
+   Area=12   Joint1=17   Joint2=9   Joint3=21   Joint4=18   GUID=5bbee08f-c80d-4d02-becf-c86950f7d15a
+   Area=13   Joint1=18   Joint2=21   Joint3=12   Joint4=20   GUID=bcc0ad71-6806-4aa1-8c0a-d28a5ec886ef
+ 
+TABLE:  "CONSTRAINT DEFINITIONS - DIAPHRAGM"
+   Name=DIAPH1_9.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_18.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_27.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_36.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_45.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_54.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_63.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_72.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_81.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_90.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_1000.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_2000.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_2500.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+   Name=DIAPH1_3000.   CoordSys=GLOBAL   Axis=Z   MultiLevel=No
+ 
+TABLE:  "COORDINATE SYSTEMS"
+   Name=GLOBAL   Type=Cartesian   X=0   Y=0   Z=0   AboutZ=0   AboutY=0   AboutX=0
+ 
+TABLE:  "DATABASE DOCUMENTATION"
+ 
+TABLE:  "DATABASE FORMAT TYPES"
+   UnitsCurr=Yes   OverrideE=No
+ 
+TABLE:  "FUNCTION - PLOT FUNCTIONS"
+   PlotFunc="Input Energy"   Type=Energy   Component=Input   Mode=All
+   PlotFunc=SCUT1   Type=SectionCut   ObjectLabel=SCUT1   Component=M2   Mode=All
+   PlotFunc=Joint8   Type=Joint   ObjectLabel=8   Component=RelDispU1   Mode=All
+ 
+TABLE:  "FUNCTION - POWER SPECTRAL DENSITY - USER"
+   Name=UNIFPSD   Frequency=0   Value=1
+   Name=UNIFPSD   Frequency=1   Value=1
+ 
+TABLE:  "FUNCTION - RESPONSE SPECTRUM - USER"
+   Name=UNIFRS   Period=0   Accel=1   FuncDamp=0.05
+   Name=UNIFRS   Period=1   Accel=1
+ 
+TABLE:  "FUNCTION - STEADY STATE - USER"
+   Name=UNIFSS   Frequency=0   Value=1
+   Name=UNIFSS   Frequency=1   Value=1
+ 
+TABLE:  "FUNCTION - TIME HISTORY - FROM FILE"
+   Name=LACC0   HeaderLines=2   PrefixChars=0   PtsPerLine=8   DataType="Equal Interval"   FormatType=Free   Interval=0.02   FileName="c:\program files\computers and structures\sap2000 25\time history functions\lacc_nor-1.th"
+   Name=Altadena   HeaderLines=2   PrefixChars=0   PtsPerLine=8   DataType="Equal Interval"   FormatType=Free   Interval=0.02   FileName="f:\3rd publication\ground motion\altadena-1.th"
+   Name=Lucerne   HeaderLines=2   PrefixChars=0   PtsPerLine=8   DataType="Equal Interval"   FormatType=Free   Interval=0.005   FileName="f:\3rd publication\ground motion\lucerne-1.th"
+   Name=Lazio   HeaderLines=0   PrefixChars=0   PtsPerLine=2   DataType="Time and Value"   FormatType=Free   FileName="f:\3rd publication\ground motion\lazio abruzzo (aftershock).txt"
+   Name=Vrancea   HeaderLines=0   PrefixChars=0   PtsPerLine=2   DataType="Time and Value"   FormatType=Free   FileName="f:\3rd publication\ground motion\vrancea.txt"
+   Name="South Iceland"   HeaderLines=0   PrefixChars=0   PtsPerLine=2   DataType="Equal Interval"   FormatType=Free   Interval=0.005   FileName="f:\3rd publication\ground motion\south iceland (aftershock).txt"
+   Name="Umbria Marche"   HeaderLines=0   PrefixChars=0   PtsPerLine=2   DataType="Time and Value"   FormatType=Free   FileName="f:\3rd publication\ground motion\umbria marche (aftershock).txt"
+ 
+TABLE:  "FUNCTION - TIME HISTORY - USER"
+   Name=RAMPTH   Time=0   Value=0
+   Name=RAMPTH   Time=1   Value=1
+   Name=RAMPTH   Time=4   Value=1
+   Name=UNIFTH   Time=0   Value=1
+   Name=UNIFTH   Time=1   Value=1
+ 
+TABLE:  "GRID LINES"
+   CoordSys=GLOBAL   AxisDir=X   GridID=A   XRYZCoord=0   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=End   AllVisible=Yes   BubbleSize=562.5
+   CoordSys=GLOBAL   AxisDir=X   GridID=B   XRYZCoord=200   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=X   GridID=C   XRYZCoord=800   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=X   GridID=D   XRYZCoord=1000   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=1   XRYZCoord=0   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=Start
+   CoordSys=GLOBAL   AxisDir=Z   GridID=Z1   XRYZCoord=0   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Z   GridID=Z2   XRYZCoord=1000   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Z   GridID=Z3   XRYZCoord=2000   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Z   GridID=Z4   XRYZCoord=3000   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=End
+ 
+TABLE:  "GROUPS 1 - DEFINITIONS"
+   GroupName=All   Selection=Yes   SectionCut=Yes   Steel=Yes   Concrete=Yes   Aluminum=Yes   ColdFormed=Yes   Stage=Yes   Bridge=Yes   AutoSeismic=No   AutoWind=No   SelDesSteel=No   SelDesAlum=No   SelDesCold=No   MassWeight=Yes   Color=Red
+   GroupName="1st Story"   Selection=Yes   SectionCut=Yes   Steel=Yes   Concrete=Yes   Aluminum=Yes   ColdFormed=Yes   Stage=Yes   Bridge=Yes   AutoSeismic=No   AutoWind=No   SelDesSteel=No   SelDesAlum=No   SelDesCold=No   MassWeight=Yes   Color=Green
+ 
+TABLE:  "GROUPS 2 - ASSIGNMENTS"
+ 
+TABLE:  "JOINT CONSTRAINT ASSIGNMENTS"
+   Joint=3   Constraint=DIAPH1_1000.
+   Joint=4   Constraint=DIAPH1_1000.
+   Joint=5   Constraint=DIAPH1_2000.
+   Joint=6   Constraint=DIAPH1_2000.
+   Joint=7   Constraint=DIAPH1_3000.
+   Joint=8   Constraint=DIAPH1_3000.
+   Joint=9   Constraint=DIAPH1_2000.
+   Joint=10   Constraint=DIAPH1_2000.
+   Joint=11   Constraint=DIAPH1_3000.
+   Joint=12   Constraint=DIAPH1_3000.
+   Joint=13   Constraint=DIAPH1_1000.
+   Joint=14   Constraint=DIAPH1_1000.
+   Joint=17   Constraint=DIAPH1_2000.
+   Joint=18   Constraint=DIAPH1_2500.
+   Joint=19   Constraint=DIAPH1_2500.
+   Joint=20   Constraint=DIAPH1_3000.
+   Joint=21   Constraint=DIAPH1_2500.
+ 
+TABLE:  "JOINT COORDINATES"
+   Joint=1   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0   Y=0   Z=0   SpecialJt=No   GUID=9bae11ab-c806-4890-8779-96c48003a0fc
+   Joint=2   CoordSys=GLOBAL   CoordType=Cartesian   XorR=200   Y=0   Z=0   SpecialJt=No   GUID=213e2125-b05d-4a1c-8168-b9013ac071ad
+   Joint=3   CoordSys=GLOBAL   CoordType=Cartesian   XorR=200   Y=0   Z=1000   SpecialJt=No   GUID=ca978a30-de46-4196-b3ed-960bb67c51cf
+   Joint=4   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0   Y=0   Z=1000   SpecialJt=No   GUID=12beda49-a65d-404c-bce5-79c9ad6224cc
+   Joint=5   CoordSys=GLOBAL   CoordType=Cartesian   XorR=200   Y=0   Z=2000   SpecialJt=No   GUID=99eb1889-4e94-4ad8-ab47-36dfc3126629
+   Joint=6   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0   Y=0   Z=2000   SpecialJt=No   GUID=3a9dc9d4-74fa-486a-be23-704bb90bbc7d
+   Joint=7   CoordSys=GLOBAL   CoordType=Cartesian   XorR=200   Y=0   Z=3000   SpecialJt=No   GUID=4de2bed9-613b-4c2f-acc0-6a72d1000253
+   Joint=8   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0   Y=0   Z=3000   SpecialJt=No   GUID=ea3bef2a-ed52-4351-aba3-0ed10630f303
+   Joint=9   CoordSys=GLOBAL   CoordType=Cartesian   XorR=800   Y=0   Z=2000   SpecialJt=No   GUID=05a04e8e-6866-4bfc-9b0e-8e6560b67cc8
+   Joint=10   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1000   Y=0   Z=2000   SpecialJt=No   GUID=e55b0363-293a-4bd4-bda4-85c3626527c6
+   Joint=11   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1000   Y=0   Z=3000   SpecialJt=No   GUID=3ae3a91f-aa84-4922-b95b-36bcc3024fe0
+   Joint=12   CoordSys=GLOBAL   CoordType=Cartesian   XorR=800   Y=0   Z=3000   SpecialJt=No   GUID=09a7502e-fd08-4be4-bf22-768b859435dc
+   Joint=13   CoordSys=GLOBAL   CoordType=Cartesian   XorR=800   Y=0   Z=1000   SpecialJt=No   GUID=02a6442c-7ceb-49fb-934e-7d785269cf6b
+   Joint=14   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1000   Y=0   Z=1000   SpecialJt=No   GUID=1d9c595a-c3ce-4151-ab96-0a42221c636d
+   Joint=15   CoordSys=GLOBAL   CoordType=Cartesian   XorR=800   Y=0   Z=0   SpecialJt=No   GUID=a18183e4-8b73-4044-a1a3-16bfb955595a
+   Joint=16   CoordSys=GLOBAL   CoordType=Cartesian   XorR=1000   Y=0   Z=0   SpecialJt=No   GUID=6fba1b91-fd3e-45c3-b21e-8fce2a2cf570
+   Joint=17   CoordSys=GLOBAL   CoordType=Cartesian   XorR=500   Y=0   Z=2000   SpecialJt=No   GUID=0b3832c1-ae2f-4061-bdfa-ef85a413338d
+   Joint=18   CoordSys=GLOBAL   CoordType=Cartesian   XorR=500   Y=0   Z=2500   SpecialJt=No   GUID=b0d3cb2a-84c5-4716-9563-d0960604cb2c
+   Joint=19   CoordSys=GLOBAL   CoordType=Cartesian   XorR=200   Y=0   Z=2500   SpecialJt=No   GUID=4e7133a2-6edf-4290-91e4-9f5bc8a05b54
+   Joint=20   CoordSys=GLOBAL   CoordType=Cartesian   XorR=500   Y=0   Z=3000   SpecialJt=No   GUID=a53bc36e-a04a-4671-899d-f24f798d9f10
+   Joint=21   CoordSys=GLOBAL   CoordType=Cartesian   XorR=800   Y=0   Z=2500   SpecialJt=No   GUID=4115eda5-1032-4eb6-a33b-453bd8177239
+ 
+TABLE:  "JOINT LOADS - FORCE"
+   Joint=20   LoadPat=DEAD   CoordSys=GLOBAL   F1=0   F2=0   F3=-246   M1=0   M2=0   M3=0   GUID=7949aeee-02ec-4d8e-a358-674499de2985
+ 
+TABLE:  "JOINT PATTERN DEFINITIONS"
+   Pattern=Default
+ 
+TABLE:  "JOINT RESTRAINT ASSIGNMENTS"
+   Joint=1   U1=Yes   U2=Yes   U3=Yes   R1=Yes   R2=Yes   R3=Yes
+   Joint=2   U1=Yes   U2=Yes   U3=Yes   R1=Yes   R2=Yes   R3=Yes
+   Joint=15   U1=Yes   U2=Yes   U3=Yes   R1=Yes   R2=Yes   R3=Yes
+   Joint=16   U1=Yes   U2=Yes   U3=Yes   R1=Yes   R2=Yes   R3=Yes
+ 
+TABLE:  "LOAD CASE DEFINITIONS"
+   Case=DEAD   Type=LinStatic   InitialCond=Zero   DesTypeOpt="Prog Det"   DesignType=Dead   DesActOpt="Prog Det"   DesignAct=Non-Composite   AutoType=None   RunCase=Yes   GUID=63e07c82-e43e-45b4-849c-1f0fe5005ddd
+   Case=MODAL   Type=LinModal   InitialCond=Zero   DesTypeOpt="Prog Det"   DesignType=Other   DesActOpt="Prog Det"   DesignAct=Other   AutoType=None   RunCase=Yes   GUID=91d2fb61-fb1f-487c-8863-931d8c88037c
+   Case=LVE   Type=LinStatic   InitialCond=Zero   DesTypeOpt="Prog Det"   DesignType=Other   DesActOpt="Prog Det"   DesignAct=Other   AutoType=None   RunCase=No   GUID=8b76af94-265d-40f2-8df7-c72d3a76a52c
+   Case=GravNL   Type=NonStatic   InitialCond=Zero   MassSource=MSSSRC1   DesTypeOpt="Prog Det"   DesignType=Dead   DesActOpt="Prog Det"   DesignAct=Non-Composite   AutoType=None   RunCase=Yes   GUID=eade7599-dee1-4448-912f-96ee5c2dfb50
+   Case=PushX   Type=NonStatic   InitialCond=GravNL   MassSource=MSSSRC1   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=e71b7b35-266d-4726-a788-675f79e57479
+   Case=LACC0   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=No   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=LACC0-0.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=LACC0-0.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=LACC0_0.7   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=LACC0-0.9   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=LACC0-1.1   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=LACC0-1.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=LACC0-1.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=LACC0-2   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=LACC0-2.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=LACC0-3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Altadena-0.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Altadena-0.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Altadena-0.7   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Altadena-0.9   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Altadena-1.1   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Altadena-1.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Altadena-1.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Altadena-2   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Altadena-2.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Altadena-3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Lucerne-0.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Lucerne-0.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Lucerne-0.7   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Lucerne-0.9   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Lucerne-1.1   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Lucerne-1.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Lucerne-1.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Lucerne-2   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Lucerne-2.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Lucerne-3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=4a6e4488-d309-4308-b1d1-d9532f53a489
+   Case=Lazio-0.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=add0d2f3-64af-4229-88f1-921ca907012c
+   Case=Lazio-0.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=add0d2f3-64af-4229-88f1-921ca907012c
+   Case=Lazio-0.7   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=add0d2f3-64af-4229-88f1-921ca907012c
+   Case=Lazio-0.9   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=add0d2f3-64af-4229-88f1-921ca907012c
+   Case=Lazio-1.1   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=add0d2f3-64af-4229-88f1-921ca907012c
+   Case=Lazio-1.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=add0d2f3-64af-4229-88f1-921ca907012c
+   Case=Lazio-1.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=add0d2f3-64af-4229-88f1-921ca907012c
+   Case=Lazio-2   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=add0d2f3-64af-4229-88f1-921ca907012c
+   Case=Lazio-2.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=add0d2f3-64af-4229-88f1-921ca907012c
+   Case=Lazio-3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=add0d2f3-64af-4229-88f1-921ca907012c
+   Case=SIceland-0.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=b8d07d19-2cd2-4853-865b-a94dec0504b7
+   Case=SIceland-0.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=b8d07d19-2cd2-4853-865b-a94dec0504b7
+   Case=SIceland-0.7   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=b8d07d19-2cd2-4853-865b-a94dec0504b7
+   Case=SIceland-0.9   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=b8d07d19-2cd2-4853-865b-a94dec0504b7
+   Case=SIceland-1.1   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=b8d07d19-2cd2-4853-865b-a94dec0504b7
+   Case=SIceland-1.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=b8d07d19-2cd2-4853-865b-a94dec0504b7
+   Case=SIceland-1.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=b8d07d19-2cd2-4853-865b-a94dec0504b7
+   Case=SIceland-2   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=b8d07d19-2cd2-4853-865b-a94dec0504b7
+   Case=SIceland-2.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=b8d07d19-2cd2-4853-865b-a94dec0504b7
+   Case=SIceland-3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=b8d07d19-2cd2-4853-865b-a94dec0504b7
+   Case=Umbria-0.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=f89704b7-f876-404b-ad3a-c9774cefff07
+   Case=Umbria-0.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=f89704b7-f876-404b-ad3a-c9774cefff07
+   Case=Umbria-0.7   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=f89704b7-f876-404b-ad3a-c9774cefff07
+   Case=Umbria-0.9   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=f89704b7-f876-404b-ad3a-c9774cefff07
+   Case=Umbria-1.1   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=f89704b7-f876-404b-ad3a-c9774cefff07
+   Case=Umbria-1.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=f89704b7-f876-404b-ad3a-c9774cefff07
+   Case=Umbria-1.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=f89704b7-f876-404b-ad3a-c9774cefff07
+   Case=Umbria-2   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=f89704b7-f876-404b-ad3a-c9774cefff07
+   Case=Umbria-2.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=f89704b7-f876-404b-ad3a-c9774cefff07
+   Case=Umbria-3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=f89704b7-f876-404b-ad3a-c9774cefff07
+   Case=Vrancea-0.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=04a565d1-6d88-4f88-9d26-c8e259bc7001
+   Case=Vrancea-0.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=04a565d1-6d88-4f88-9d26-c8e259bc7001
+   Case=Vrancea-0.7   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=04a565d1-6d88-4f88-9d26-c8e259bc7001
+   Case=Vrancea-0.9   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=04a565d1-6d88-4f88-9d26-c8e259bc7001
+   Case=Vrancea-1.1   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=04a565d1-6d88-4f88-9d26-c8e259bc7001
+   Case=Vrancea-1.3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=04a565d1-6d88-4f88-9d26-c8e259bc7001
+   Case=Vrancea-1.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=04a565d1-6d88-4f88-9d26-c8e259bc7001
+   Case=Vrancea-2   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=04a565d1-6d88-4f88-9d26-c8e259bc7001
+   Case=Vrancea-2.5   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=04a565d1-6d88-4f88-9d26-c8e259bc7001
+   Case=Vrancea-3   Type=NonModHist   InitialCond=Zero   ModalCase=MODAL   DesTypeOpt="Prog Det"   DesignType=Quake   DesActOpt="Prog Det"   DesignAct="Short-Term Composite"   AutoType=None   RunCase=Yes   GUID=04a565d1-6d88-4f88-9d26-c8e259bc7001
+ 
+TABLE:  "LOAD PATTERN DEFINITIONS"
+   LoadPat=DEAD   DesignType=Dead   SelfWtMult=1   GUID=7cb75e49-07f0-46d4-b22c-bee8e8fc5cc1
+ 
+TABLE:  "MASS SOURCE"
+   MassSource=MSSSRC1   Elements=No   Masses=No   Loads=Yes   IsDefault=Yes   LoadPat=DEAD   Multiplier=1
+ 
+TABLE:  "MATERIAL PROPERTIES 01 - GENERAL"
+   Material=AllSteelReinforcemet   Type=Rebar   Grade="Grade 60"   SymType=Uniaxial   TempDepend=No   Color=Red   GUID=659c81ea-c9de-4819-9515-e87f6d49da45   Notes="Rebar added 12/21/2024 4:18:12 PM"
+   Material=C30/37   Type=Concrete   Grade=C30/37   SymType=Isotropic   TempDepend=No   Color=Red   GUID=7d69c4f7-b507-43e5-884b-ba6eca585a89   Notes="EN 1992-1-1 per EN 206-1 C30/37 12/20/2025 5:27:54 PM"
+   Material=ConfinedConcrete   Type=Concrete   Grade="f'c 4000 psi"   SymType=Isotropic   TempDepend=No   Color=Green   GUID=a3cd4140-6268-487a-8ff2-0bca25f05375   Notes="Concrete added 12/21/2024 4:23:15 PM"
+   Material=S355   Type=Steel   Grade=S355   SymType=Isotropic   TempDepend=No   Color=Cyan   Notes="EN 1993-1-1 per EN 10025-2 S355 12/20/2025 5:27:54 PM"
+   Material=Tendon   Type=Tendon   SymType=Uniaxial   TempDepend=No   Color=Blue   GUID=cb2d4e58-2c40-4098-bbd7-d857ec0ee7a5   Notes="Tendon added 12/21/2024 7:06:27 PM"
+   Material=UnconfinedConcrete   Type=Concrete   Grade="f'c 4000 psi"   SymType=Isotropic   TempDepend=No   Color=Cyan   GUID=96d116dc-92ae-44a8-af7f-00f2c43e16a4   Notes="Concrete added 12/21/2024 4:23:15 PM"
+ 
+TABLE:  "MATERIAL PROPERTIES 02 - BASIC MECHANICAL PROPERTIES"
+   Material=AllSteelReinforcemet   UnitWeight=0   UnitMass=0   E1=199.947978795958   A1=1.16999994421006E-05
+   Material=C30/37   UnitWeight=2.499261766E-08   UnitMass=2.5485377E-12   E1=33   G12=13.75   U12=0.2   A1=1E-05
+   Material=ConfinedConcrete   UnitWeight=0   UnitMass=0   E1=37.2316926033852   G12=15.5132052514105   U12=0.2   A1=9.89999952793124E-06
+   Material=S355   UnitWeight=7.69728639422648E-08   UnitMass=7.84904737995992E-12   E1=210   G12=80.7692307692308   U12=0.3   A1=1.17E-05
+   Material=Tendon   UnitWeight=7.69728639422648E-08   UnitMass=7.84904737995992E-12   E1=196.5005998512   A1=1.16999994421006E-05
+   Material=UnconfinedConcrete   UnitWeight=0   UnitMass=0   E1=37.2316926033852   G12=14.8926770413541   U12=0.25   A1=9.89999952793124E-06
+ 
+TABLE:  "MATERIAL PROPERTIES 03A - STEEL DATA"
+   Material=S355   Fy=0.355   Fu=0.51   EffFy=0.3905   EffFu=0.561   SSCurveOpt=Simple   SSHysType=Kinematic   SHard=0.015   SMax=0.11   SRup=0.17   FinalSlope=-0.1   CoupModType="Von Mises"
+ 
+TABLE:  "MATERIAL PROPERTIES 03B - CONCRETE DATA"
+   Material=C30/37   Fc=0.03   eFc=0.03   LtWtConc=No   SSCurveOpt=Mander   SSHysType=Takeda   SFc=0.00181818   SCap=0.005   FinalSlope=-0.1   FAngle=0   DAngle=0   CoupModType="Modified Darwin-Pecknold"
+   Material=ConfinedConcrete   Fc=0.0275790315580631   eFc=0.0275790315580631   LtWtConc=No   SSCurveOpt="User Defined"   SSHysType=Takeda   FAngle=0   DAngle=0   CoupModType="Modified Darwin-Pecknold"
+   Material=UnconfinedConcrete   Fc=0.0275790315580631   eFc=0.0275790315580631   LtWtConc=No   SSCurveOpt="User Defined"   SSHysType=Takeda   FAngle=0   DAngle=0   CoupModType="Modified Darwin-Pecknold"
+ 
+TABLE:  "MATERIAL PROPERTIES 03E - REBAR DATA"
+   Material=AllSteelReinforcemet   Fy=0.482633052266105   Fu=0.689475788951578   EffFy=0.568817525885052   EffFu=0.758423367846736   SSCurveOpt="User Defined"   SSHysType=Kinematic   CoupModType="Von Mises"
+ 
+TABLE:  "MATERIAL PROPERTIES 03F - TENDON DATA"
+   Material=Tendon   Fy=1.68990515872032   Fu=1.86158463016926   SSCurveOpt="270 ksi"   SSHysType=Kinematic   FinalSlope=-0.1   CoupModType="Von Mises"
+ 
+TABLE:  "MATERIAL PROPERTIES 03J - COUPLED NONLINEAR VON MISES DATA"
+   Material=AllSteelReinforcemet   YieldStress=0.568817525885052   LinIsoHard=No   LinKinHard=No   NLIsoSaHard=No
+   Material=S355   YieldStress=0.3905   LinIsoHard=No   LinKinHard=No   NLIsoSaHard=No
+   Material=Tendon   YieldStress=1.68990515872032   LinIsoHard=No   LinKinHard=No   NLIsoSaHard=No
+ 
+TABLE:  "MATERIAL PROPERTIES 04 - USER STRESS-STRAIN CURVES"
+   Material=AllSteelReinforcemet   Strain=-0.2   Stress=-0.689475788951578
+   Material=AllSteelReinforcemet   Strain=-0.1   Stress=-0.689475788951578
+   Material=AllSteelReinforcemet   Strain=-0.002414   Stress=-0.482633052266105
+   Material=AllSteelReinforcemet   Strain=0   Stress=0   PointID=A
+   Material=AllSteelReinforcemet   Strain=0.002414   Stress=0.482633052266105
+   Material=AllSteelReinforcemet   Strain=0.1   Stress=0.689475788951578
+   Material=AllSteelReinforcemet   Strain=0.2   Stress=0.689475788951578
+   Material=ConfinedConcrete   Strain=-0.008889   Stress=-0.0276252264359229
+   Material=ConfinedConcrete   Strain=-0.006667   Stress=-0.0276252264359229
+   Material=ConfinedConcrete   Strain=-0.002889   Stress=-0.0373847562285325
+   Material=ConfinedConcrete   Strain=-0.001778   Stress=-0.0373847562285325
+   Material=ConfinedConcrete   Strain=-0.000576   Stress=-0.0214495917942836
+   Material=ConfinedConcrete   Strain=0   Stress=0   PointID=A
+   Material=ConfinedConcrete   Strain=0.004444   Stress=2.14495917942836E-08
+   Material=ConfinedConcrete   Strain=0.00576   Stress=2.14495917942836E-08
+   Material=UnconfinedConcrete   Strain=-0.008889   Stress=-0.000275790315580631
+   Material=UnconfinedConcrete   Strain=-0.001778   Stress=-0.000275790315580631
+   Material=UnconfinedConcrete   Strain=-0.0009333   Stress=-0.0275790315580631
+   Material=UnconfinedConcrete   Strain=-0.0008444   Stress=-0.0275790315580631
+   Material=UnconfinedConcrete   Strain=-0.0004938   Stress=-0.0183862508639717
+   Material=UnconfinedConcrete   Strain=0   Stress=0   PointID=A
+   Material=UnconfinedConcrete   Strain=4.938E-10   Stress=1.83883192913386E-08
+   Material=UnconfinedConcrete   Strain=0.004444   Stress=1.83883192913386E-08
+ 
+TABLE:  "MATERIAL PROPERTIES 06 - DAMPING PARAMETERS"
+   Material=AllSteelReinforcemet   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material=C30/37   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material=ConfinedConcrete   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material=S355   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material=Tendon   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material=UnconfinedConcrete   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+ 
+TABLE:  "MATERIAL PROPERTIES 09 - ACCEPTANCE CRITERIA"
+   Material=AllSteelReinforcemet   IOTens=0.01   LSTens=0.02   CPTens=0.05   IOComp=-0.005   LSComp=-0.01   CPComp=-0.02
+   Material=C30/37   IOTens=0.01   LSTens=0.02   CPTens=0.05   IOComp=-0.003   LSComp=-0.006   CPComp=-0.015   IgnoreTens=Yes
+   Material=ConfinedConcrete   IOTens=0.01   LSTens=0.02   CPTens=0.05   IOComp=-0.003   LSComp=-0.006   CPComp=-0.015   IgnoreTens=Yes
+   Material=S355   IOTens=0.01   LSTens=0.02   CPTens=0.05   IOComp=-0.005   LSComp=-0.01   CPComp=-0.02
+   Material=Tendon   IOTens=0.015   LSTens=0.023   CPTens=0.03   IOComp=-0.015   LSComp=-0.023   CPComp=-0.03
+   Material=UnconfinedConcrete   IOTens=0.01   LSTens=0.02   CPTens=0.05   IOComp=-0.003   LSComp=-0.006   CPComp=-0.015   IgnoreTens=Yes
+ 
+TABLE:  "OPTIONS - COLORS - DISPLAY"
+   DeviceType=Screen   Points=Blue   LinesFrame=Blue   LinesFrmDL=Blue   LinesCable=Green   LinesTendon=Green   SpringLinks=Green   Restraints=Green   Releases=Green   Axes=Cyan   Text=Black   ShadowLines=Gray8Dark   GuideLines=Gray8Dark _
+        Highlight=Red   Selection=10504778   AreaFillBot=Red   AreaFillTop=16744703   AreaFillSd=Red   AreaEdge=DarkRed   SolidF1=Red   SolidF2=Blue   SolidF3=Green   SolidF4=Yellow   SolidF5=White   SolidF6=Cyan   SolidEdge=DarkRed _
+        Floor=Gray4   Background=White   BGLowLeft=White   BGLowRight=White   BGUpRight=White   Darkness=0.5
+   DeviceType=Printer   Points=Gray8Dark   LinesFrame=Black   LinesFrmDL=Gray4   LinesCable=Black   LinesTendon=Black   SpringLinks=Gray8Dark   Restraints=Gray8Dark   Releases=Gray4   Axes=Black   Text=Black   ShadowLines=Gray4 _
+        GuideLines=Gray4   Highlight=Black   Selection=Black   AreaFillBot=Gray4   AreaFillTop=Gray8Dark   AreaFillSd=Gray4   AreaEdge=Black   SolidF1=Gray1Light   SolidF2=Gray2   SolidF3=Gray3   SolidF4=Gray4   SolidF5=Gray5 _
+        SolidF6=Gray6   SolidEdge=Black   Floor=Gray4   Background=White   BGLowLeft=White   BGLowRight=White   BGUpRight=White   Darkness=0.5
+   DeviceType="Color Printer"   Points=Blue   LinesFrame=Blue   LinesFrmDL=Blue   LinesCable=Green   LinesTendon=Green   SpringLinks=Green   Restraints=Green   Releases=Green   Axes=Cyan   Text=Black   ShadowLines=Gray8Dark _
+        GuideLines=Gray8Dark   Highlight=Red   Selection=10504778   AreaFillBot=Red   AreaFillTop=16744703   AreaFillSd=Red   AreaEdge=DarkRed   SolidF1=Red   SolidF2=Blue   SolidF3=Green   SolidF4=Yellow   SolidF5=White   SolidF6=Cyan _
+        SolidEdge=DarkRed   Floor=Gray4   Background=White   BGLowLeft=White   BGLowRight=White   BGUpRight=White   Darkness=0.5
+ 
+TABLE:  "OPTIONS - COLORS - OUTPUT"
+   DeviceType=Screen   Contour1=13107400   Contour2=6553828   Contour3=Red   Contour4=16639   Contour5=Orange   Contour6=43775   Contour7=54527   Contour8=Yellow   Contour9=65408   Contour10=Green   Contour11=8453888   Contour12=Cyan _
+        Contour13=16755200   Contour14=16733440   Contour15=Blue   Transpare=0   Ratio1=Cyan   Ratio2=Green   Ratio3=Yellow   Ratio4=Orange   Ratio5=Red   RatioNotD=Gray4   RatioNotC=Red   RatioVal1=0.5   RatioVal2=0.7   RatioVal3=0.9 _
+        RatioVal4=1   DFillPos=Blue   DFillNeg=Red   DFillRPos=Green   DFillRNeg=Green
+   DeviceType=Printer   Contour1=Black   Contour2=3158064   Contour3=4210752   Contour4=5263440   Contour5=6316128   Contour6=7368816   Contour7=Gray8Dark   Contour8=Gray7   Contour9=Gray6   Contour10=Gray5   Contour11=Gray4 _
+        Contour12=Gray3   Contour13=Gray2   Contour14=Gray1Light   Contour15=White   Transpare=0   Ratio1=Gray2   Ratio2=Gray4   Ratio3=Gray8Dark   Ratio4=4210752   Ratio5=Black   RatioNotD=Gray4   RatioNotC=Black   RatioVal1=0.5 _
+        RatioVal2=0.7   RatioVal3=0.9   RatioVal4=1   DFillPos=Gray8Dark   DFillNeg=Gray8Dark   DFillRPos=4210752   DFillRNeg=4210752
+   DeviceType="Color Printer"   Contour1=13107400   Contour2=6553828   Contour3=Red   Contour4=16639   Contour5=Orange   Contour6=43775   Contour7=54527   Contour8=Yellow   Contour9=65408   Contour10=Green   Contour11=8453888 _
+        Contour12=Cyan   Contour13=16755200   Contour14=16733440   Contour15=Blue   Transpare=0   Ratio1=Cyan   Ratio2=Green   Ratio3=Yellow   Ratio4=Orange   Ratio5=Red   RatioNotD=Gray4   RatioNotC=Red   RatioVal1=0.5   RatioVal2=0.7 _
+        RatioVal3=0.9   RatioVal4=1   DFillPos=Blue   DFillNeg=Red   DFillRPos=Green   DFillRNeg=Green
+ 
+TABLE:  "PREFERENCES - ALUMINUM DESIGN - AA 2015"
+   THDesign=Envelopes   SRatioLimit=1   Provision=LRFD   LatFact=1.33333333333333   UseLatFact=No   Bridge=No   PhiTy=0.9   PhiTr=0.75   PhiC=0.9   PhiBo=0.9   PhiBr=0.75   PhiVo=0.9   PhiVr=0.75
+ 
+TABLE:  "PREFERENCES - COLD FORMED DESIGN - AISI-16"
+   THDesign=Envelopes   FrameType="Braced Frame"   SRatioLimit=1   SOMethod="General 2nd Order"   Provision=LRFD   LatFact=1.33333333333333   UseLatFact=No   PhiTy=0.9   PhiTr=0.75   PhiC=0.85   PhiB=0.9   PhiBPipe=0.95   PhiV=0.95
+ 
+TABLE:  "PREFERENCES - CONCRETE DESIGN - ACI 318-19"
+   THDesign=Envelopes   NumCurves=24   NumPoints=11   MinEccen=Yes   BCCDesign=Yes   IgnoreBPu=Yes   CTorsion=Yes   PatLLF=0.75   UFLimit=0.95   SeisCat=D   Rho=1   Sds=0.5   PhiT=0.9   PhiCTied=0.65   PhiCSpiral=0.75   PhiV=0.75 _
+        PhiVSeismic=0.6   PhiVJoint=0.85   TanTheta=1
+ 
+TABLE:  "PREFERENCES - CONCRETE SHELL DESIGN - EUROCODE 2-2004"
+   Country="CEN Default"   GammaS=1.15   GammaC=1.5   AlphaCC=1   AlphaCT=1   CrackCond="Program Determined"   ShrDesMet="Method 1"   CotTheta=1
+ 
+TABLE:  "PREFERENCES - DIMENSIONAL"
+   MergeTol=1   FineGrid=250   Nudge=250   SelectTol=3   SnapTol=12   SLineThick=1   PLineThick=4   MaxFont=12   MinFont=6   AutoZoom=10   ShrinkFact=70   TextFileLen=240
+ 
+TABLE:  "PREFERENCES - STEEL DESIGN - AISC 360-16"
+   THDesign=Envelopes   FrameType=SMF   PatLLF=0.75   SRatioLimit=0.95   MaxIter=1   SDC=D   SeisCode=No   SeisLoad=No   ImpFactor=1   SystemRho=1   SystemSds=0.5   SystemR=8   SystemCd=5.5   Omega0=3   Provision=LRFD _
+        AMethod="Direct Analysis"   SOMethod="General 2nd Order"   SRMethod="Tau-b Fixed"   NLCoeff=0.002   PhiB=0.9   PhiC=0.9   PhiTY=0.9   PhiTF=0.75   PhiV=0.9   PhiVRolledI=1   PhiVT=0.9   PlugWeld=Yes   HSSWelding=ERW   HSSReduceT=No _
+        CheckDefl=No   DLRat=120   SDLAndLLRat=120   LLRat=360   TotalRat=240   NetRat=240
+ 
+TABLE:  "PROGRAM CONTROL"
+   ProgramName=SAP2000   Version=25.0.0   CurrUnits="KN, mm, C"   SteelCode="AISC 360-16"   ConcCode="ACI 318-19"   AlumCode="AA 2015"   ColdCode=AISI-16   RegenHinge=Yes
+ 
+TABLE:  "PROJECT INFORMATION"
+   Item="Company Name"
+   Item="Client Name"
+   Item="Project Name"
+   Item="Project Number"
+   Item="Model Name"
+   Item="Model Description"
+   Item="Revision Number"
+   Item="Frame Type"
+   Item=Engineer
+   Item=Checker
+   Item=Supervisor
+   Item="Issue Code"
+   Item="Design Code"
+ 
+TABLE:  "PUSHOVER PARAMETERS - ATC40"
+   ParamName=A40PO1   PlotAxes=Sa-Sd   DemandFrom=ATC40   Ca=0.4   Cv=0.4   AddDamp=0.05   StructType=B   BetaZero1=25   Kappa1=0.67   BetaZero2=45   Kappa2=0.53   PlotCap=Yes   PlotDemand=Yes   PlotLocus=Yes   PlotPeriod=Yes _
+        CapColor=Green   DemandColor=Red   LocusColor=Yellow   PeriodColor=13882323   Damp1=0.05   Damp2=0.1   Damp3=0.15   Damp4=0.2   Period1=0.5   Period2=1   Period3=1.5   Period4=2
+ 
+TABLE:  "PUSHOVER PARAMETERS - AXIS DATA"
+   PlotType=Force-Displ   ParamName=VDPO1   DisplMin=0   DisplMax=0   ForceMin=0   ForceMax=0   HorizLabel=Displacement   VertLabel="Base Reaction"
+   PlotType=ATC40   ParamName=A40PO1   DisplMin=0   DisplMax=0   SaMin=0   SaMax=0   HorizLabel="Spectral Displacement"   VertLabel="Spectral Acceleration - g"
+   PlotType=FEMA356   ParamName=F356PO1   DisplMin=0   DisplMax=0   ForceMin=0   ForceMax=0   HorizLabel=Displacement   VertLabel="Base Reaction"
+ 
+TABLE:  "PUSHOVER PARAMETERS - FEMA356"
+   ParamName=F356PO1   Beff=0.05   DemandFrom=FEMA356   Ss=1   S1=0.4   SiteClass=D   UserC2=No   UserC3=No   UserCm=No   PlotCap=Yes   PlotBiLin=Yes   CapColor=Green   BiLinColor=Red
+ 
+TABLE:  "PUSHOVER PARAMETERS - FORCE DISPLACEMENT"
+   ParamName=VDPO1   CapColor=Green
+ 
+TABLE:  "REBAR SIZES"
+   RebarID=#2   Area=32.258   Diameter=6.35
+   RebarID=#3   Area=70.9675996154547   Diameter=9.525
+   RebarID=#4   Area=129.032001922727   Diameter=12.7
+   RebarID=#5   Area=199.999601538181   Diameter=15.875
+   RebarID=#6   Area=283.870398461819   Diameter=19.05
+   RebarID=#7   Area=387.096015381813   Diameter=22.225
+   RebarID=#8   Area=509.676413843632   Diameter=25.4
+   RebarID=#9   Area=645.16   Diameter=28.6512005329132
+   RebarID=#10   Area=819.35318769455   Diameter=32.2579995155334
+   RebarID=#11   Area=1006.44956308365   Diameter=35.8139991521835
+   RebarID=#14   Area=1451.61   Diameter=43.0021989583969
+   RebarID=#18   Area=2580.64   Diameter=57.3277992248535
+   RebarID=10M   Area=100.000002655387   Diameter=11.300000667572
+   RebarID=15M   Area=200.000005310774   Diameter=15.9999999403954
+   RebarID=20M   Area=300.000017579794   Diameter=19.4999997854233
+   RebarID=25M   Area=500.000022890568   Diameter=25.2000016093254
+   RebarID=30M   Area=700.000008974075   Diameter=29.9000008821487
+   RebarID=35M   Area=1000.00004578114   Diameter=35.7000011444092
+   RebarID=45M   Area=1500.00010712624   Diameter=43.7000003576279
+   RebarID=55M   Area=2500.00007599831   Diameter=56.4000033855438
+   RebarID=6d   Area=28.3000004149973   Diameter=6.00000016689301
+   RebarID=8d   Area=50.2999995571375   Diameter=7.99999997019768
+   RebarID=10d   Area=78.5000013634562   Diameter=9.99999977350235
+   RebarID=12d   Area=113.000009249449   Diameter=12.000000333786
+   RebarID=14d   Area=154.000010818839   Diameter=14.0000008940697
+   RebarID=16d   Area=201.000015431643   Diameter=15.9999999403954
+   RebarID=20d   Area=314.000005453825   Diameter=19.9999995470047
+   RebarID=25d   Area=491.000008711815   Diameter=25.0000001907349
+   RebarID=26d   Area=531.000029001236   Diameter=25.9999997138977
+   RebarID=28d   Area=616.000043275356   Diameter=28.0000017881393
+   RebarID=N12   Area=113.000009249449   Diameter=12.000000333786
+   RebarID=N16   Area=201.000015431643   Diameter=15.9999999403954
+   RebarID=N20   Area=314.000005453825   Diameter=19.9999995470047
+   RebarID=N24   Area=452.000036997795   Diameter=24.000000667572
+   RebarID=N28   Area=616.000043275356   Diameter=28.0000017881393
+   RebarID=N32   Area=804.00006172657   Diameter=31.9999998807907
+   RebarID=N36   Area=1020.00001747131   Diameter=36.000001001358
+ 
+TABLE:  "SECTION CUTS 1 - GENERAL"
+   CutName=SCUT1   DefinedBy=Group   Group="1st Story"   ResultType=Analysis   DefaultLoc=Yes   GlobalX=0   GlobalY=0   GlobalZ=0   AngleA=0   AngleB=0   AngleC=0
+ 
+TABLE:  "SOLID PROPERTY DEFINITIONS"
+   SolidProp=Solid1   Material=C30/37   MatAngleA=0   MatAngleB=0   MatAngleC=0   InComp=Yes   Color=Gray8Dark   GUID=6156b7ef-5c34-4b90-ac8b-82459f55a49d
+ 
+END TABLE DATA
